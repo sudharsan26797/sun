@@ -1,20 +1,17 @@
 #include <stdio.h>
- 
 int main()
 {
-  char ch;
- 
-  printf("Input a character\n");
-  scanf("%c", &ch);
- 
-  if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' &&ch <= 'Z')) {
-    if (ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || ch=='o' || ch=='O' || ch== 'u' || ch=='U')
-      printf("%c is a vowel.\n", ch);
-    else
-      printf("%c is a consonant.\n", ch);
-  }
-  else
-    printf("%c is neither a vowel nor a consonant.\n", ch);
- 
-  return 0;
+char san;
+printf("Input a character\n");
+scanf("%c", &san);
+if ((san >= 'a' && san <= 'z') || (san >= 'A' &&san <= 'Z'))
+{
+if (san=='a' || san=='A' || san=='e' || san=='E' || san=='i' || san=='I' || san=='o' || san=='O' || san== 'u' || san=='U')
+printf("%c is a vowel.\n", san);
+else
+printf("%c is a consonant.\n", san);
+}
+else
+printf("%c is neither a vowel nor a consonant.\n", san);
+return 0;
 }
