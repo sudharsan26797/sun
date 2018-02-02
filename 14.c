@@ -3,8 +3,8 @@ int main()
 {
 int n,i,flag=0;
 printf("Enter a positive integer: ");
-scanf("%d",&n);
-for(i=3;i<=n/3;++i)
+scanf("%d",&m);
+for(i=3;i<=mmmm/3;++i)
 {
 if(n%i==0)
 {
