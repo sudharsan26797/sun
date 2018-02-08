@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-  int n1, n2, i, temp, num, rem;
+  int n1, n2, i, temp, num, sun;
   printf("Enter two numbers(intervals): ");
   scanf("%d %d", &n1, &n2);
   printf("Armstrong numbers between %d an %d are: ", n1, n2);
@@ -11,8 +11,8 @@ int main()
       num=0;
       while(temp!=0)
       {
-          rem=(temp%10);
-          num+=rem*rem*rem;
+          sun=(temp%10);
+          num+=sun*sun*sun;
           temp/=10;
       }
       if(i==num)
