@@ -12,4 +12,5 @@ int main()
       printf("%d %d\n",a[i],i);
     }
 	return 0;
+	getch();
 }
