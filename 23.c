@@ -1,19 +1,23 @@
 #include<stdio.h>
-int main()
-{
-  int a[10],temp;
-  int i;
-  for(i=0;i<10;i++)
-  {
-    scanf("%d",&a[i]);
-  }
-  temp=a[0];
-  for(i=0;i<10;i++)
-  {
-    if(a[0]>a[i])
-    {
-      temp=a[i]);
+    #include<math.h>
+    int main(){
+                   int n, z, small, array[20];
+                   printf(" How many Integer numbers : ");
+                   scanf("%d", &n);
+                   z=n;
+                   if(n>0){
+                   printf("\n Enter the numbers one by one : ");
+                   for(;n>=1;n--)
+                   scanf("%d", &array[n]);
+                   small = array[1];
+                   n=z;
+                   for(;n>=1; n--){
+                   if(small > array[n])
+                   small = array[n];
+                   }
+                   }
+    printf("\n The smallest of %d numbers is %d", z, small);
+    return(0);
     }
-    printf("the largest number is %d",temp);
-  }
-}
+
+  
