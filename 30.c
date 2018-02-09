@@ -22,4 +22,5 @@ int main()
     hr=h1-h2;
     printf("%d:%d:%d",hr,min,sec);
     return 0;
+   getch();
 }
