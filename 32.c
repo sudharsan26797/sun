@@ -13,5 +13,5 @@ void main()
         if (s[i] == ' ')
             count++;    
     }
-    printf("number of words in given string are: %d\n", count + 1);
+    printf("enter the number of words in given string are: %d\n", count + 1);
 }
